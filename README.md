@@ -46,7 +46,8 @@ At a minimum, the final orders table should include:
 
 You may include additional derived fields or intermediate logic where necessary to support clarity, reusability, and analytical use cases.
 
-**Note:** While dbt is preferred, we understand setup time can be a constraint. SQL-only submissions are acceptable if clearly structured and well documented.
+Note: While dbt is preferred, we understand setup time can be a constraint. SQL-only submissions are acceptable if clearly structured and well documented.
+
 ---
 
 ### 3. Testing
