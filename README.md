@@ -36,8 +36,7 @@ You may load these files into a database of your choice (SQLite, PostgreSQL, Big
 
 ### 2. Data Modelling
 
-Using **dbt**, build an **orders fact table** supported by any upstream transformation models.  
-Where applicable, ensure appropriate handling of duplicate records.
+Using **dbt**, build an **orders fact table** supported by any upstream transformation models. Where applicable, ensure appropriate handling of duplicate records. Additionally, feel free to add tests where appropriate to ensure data quality and reliability.
 
 At a minimum, the final orders table should include:
 
@@ -50,13 +49,7 @@ Note: While dbt is preferred, we understand setup time can be a constraint. SQL-
 
 ---
 
-### 3. Testing
-
-Add **tests where appropriate** (e.g. uniqueness, not null, accepted values) to ensure data quality and reliability.
-
----
-
-### 4. Written Response
+### 3. Written Response
 
 Please write a short response covering the following:
 
@@ -65,17 +58,15 @@ How do you decide where to perform data cleaning versus where to implement more 
 
 ---
 
-## Evaluation Criteria
+# **What We’re Looking For**
 
-Submissions will be evaluated based on:
+We are interested in how you approach:
 
-1. **Code Quality**  
-   Is your SQL clean, readable, reusable, and easy to maintain?
-
-2. **Data Modelling Best Practices**  
-   We use dbt best practices as outlined here:  
-   https://docs.getdbt.com/best-practices/how-we-style/0-how-we-style-our-dbt-projects
-
+- Data modeling for analytics  
+- Transforming raw data into reliable, reusable datasets  
+- Writing SQL that is clear, maintainable, and well-structured  
+- Making analytical tradeoffs and design decisions
+  
 ---
 
 ## Submission Instructions
