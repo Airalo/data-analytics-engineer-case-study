@@ -18,8 +18,9 @@ For instance, the business wants to understand:
 
 You are provided 2 datasets: 
 
-- `users`
-- `orders`
+- `users.csv`
+- `orders.csv`
+- `exchange_rates.csv`
 
 Your task is to transform this raw data into a clean, analytics-ready orders fact table that can be reliably used by downstream stakeholders for reporting and decision-making.
 
@@ -36,7 +37,7 @@ You may load these files into a database of your choice (SQLite, PostgreSQL, Big
 
 ### 2. Data Modelling
 
-Using **dbt**, build an **orders fact table** supported by any upstream transformation models. Where applicable, ensure appropriate handling of duplicate records. Additionally, feel free to add tests where appropriate to ensure data quality and reliability.
+Using **dbt**, build an **orders table** supported by any upstream transformation models. 
 
 At a minimum, the final orders table should include:
 
@@ -51,10 +52,12 @@ Note: While dbt is preferred, we understand setup time can be a constraint. SQL-
 
 ### 3. Written Response
 
-Please write a short response covering the following:
+Please write a short response covering: 
 
-**Logic Separation**  
-How do you decide where to perform data cleaning versus where to implement more complex business logic?
+- How you approached the data modeling problem?
+- Key assumptions you made about the data
+- Any data quality issues you encountered and how you handled them
+- How do you decide where to perform data cleaning versus where to implement more complex business logic?
 
 ---
 
@@ -66,6 +69,8 @@ We are interested in how you approach:
 - Transforming raw data into reliable, reusable datasets  
 - Writing SQL that is clear, maintainable, and well-structured  
 - Making analytical tradeoffs and design decisions
+
+  There is no single “correct” solution. We interested in how you think structure and communicate. 
   
 ---
 
